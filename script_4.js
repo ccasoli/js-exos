@@ -40,11 +40,11 @@ function ageToday(){
     let yearToday = today.getFullYear(); 
     entrepreneurs.forEach(man => {
         let age = yearToday - man.year;
-        console.log(`${man.fisrt} ${man.last} a ${age} ans`)
+        console.log(`${man.first} ${man.last} a ${age} ans`)
     });
 }
 
-function AlphDesc(){
+function alphDesc(){
     let arrayMan = []
     entrepreneurs.forEach(man => {
         arrayMan.push(man.last);
